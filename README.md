@@ -34,11 +34,14 @@ The file is what it's needed to reset the bottles. Works up to the most recent v
 5. Run the `sudo su` command and enter your password.
 6. Type `sudo`, drag the `.command` file you just edited into the terminals window and press enter
 7. If everything runs correctly, the code should be now prompting to delete the following lines:
-`[Software\\CodeWeavers\\CrossOver\\cxoffice] 1743349992 #time=1dba18bd74f2b30 "InstallTime"=dword:6c4586c4 "NagTime"=dword:6a06b611 "Version"=dword:547445c7
-`
-8. Press `y`, and then `enter`
-9. The utility has now made a backup of the `system.reg` file called `system.reg.bak`, in case anything goes wrong, you can undo the damages by deleting the damaged file and deleting the `.bak` extension from the backed-up file.
-10. Test everything works by running a program. CrossOver now should not be bothering you for 14 days.
-11. Set a reminder to repeat this process once a week.
+`[Software\\CodeWeavers\\CrossOver\\cxoffice] 1743349992`  
+`#time=1dba18bd74f2b30`  
+`"InstallTime"=dword:6c4586c4`  
+`"NagTime"=dword:6a06b611`  
+`"Version"=dword:547445c7`  
+9. Press `y`, and then `enter`
+10. The utility has now made a backup of the `system.reg` file called `system.reg.bak`, in case anything goes wrong, you can undo the damages by deleting the damaged file and deleting the `.bak` extension from the backed-up file.
+11. Test everything works by running a program. CrossOver now should not be bothering you for 14 days.
+12. Set a reminder to repeat this process once a week.
 
 # DONE!
