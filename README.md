@@ -23,11 +23,11 @@ A comprehensive, automated script to reset both CrossOver's trial period and bot
 1. **Download the script** to your preferred location
 2. **Make it executable** (if needed):
    ```bash
-   chmod +x Reset_Crossover_bottles.command
+   chmod +x CrossOver_Complete_Reset_Utility.command
    ```
 3. **Run the script**:
    ```bash
-   ./Reset_Crossover_bottles.command
+   ./CrossOver_Complete_Reset_Utility.command
    ```
 
 That's it! The script will guide you through the entire process.
